@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cross Browser Testing Suite" duration-ms="22562" started-at="2020-11-23T10:21:00Z" finished-at="2020-11-23T10:21:22Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="13861" started-at="2020-11-23T10:21:00Z" finished-at="2020-11-23T10:21:13Z">
+      <class name="crossBrowserTesting.CrossBrowserTesting">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:crossBrowserTesting.CrossBrowserTesting@64bf3bbf]" name="beforeTest" is-config="true" duration-ms="11487" started-at="2020-11-23T10:21:00Z" finished-at="2020-11-23T10:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:crossBrowserTesting.CrossBrowserTesting@64bf3bbf]" name="test" duration-ms="2223" started-at="2020-11-23T10:21:11Z" finished-at="2020-11-23T10:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:crossBrowserTesting.CrossBrowserTesting@64bf3bbf]" name="afterTest" is-config="true" duration-ms="111" started-at="2020-11-23T10:21:13Z" finished-at="2020-11-23T10:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- crossBrowserTesting.CrossBrowserTesting -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="22562" started-at="2020-11-23T10:21:00Z" finished-at="2020-11-23T10:21:22Z">
+      <class name="crossBrowserTesting.CrossBrowserTesting">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:crossBrowserTesting.CrossBrowserTesting@3fee9989]" name="beforeTest" is-config="true" duration-ms="16768" started-at="2020-11-23T10:21:00Z" finished-at="2020-11-23T10:21:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:crossBrowserTesting.CrossBrowserTesting@3fee9989]" name="test" duration-ms="312" started-at="2020-11-23T10:21:16Z" finished-at="2020-11-23T10:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:crossBrowserTesting.CrossBrowserTesting@3fee9989]" name="afterTest" is-config="true" duration-ms="5471" started-at="2020-11-23T10:21:17Z" finished-at="2020-11-23T10:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- crossBrowserTesting.CrossBrowserTesting -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Cross Browser Testing Suite -->
+</testng-results>
